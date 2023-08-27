@@ -11,12 +11,12 @@ const DestinationSearch = () => {
       <View style={styles.container}>
         <TextInput
          value={fromText}
-         onTextChange={setFromText}
+         onChangeText={setFromText}
          style={styles.textInput}
          placeholder="From" />
         <TextInput 
          value={destinationText}
-         onTextChange={setDestinationText}
+         onChangeText={setDestinationText}
          style={styles.textInput}
          placeholder="Where to?" />
       </View>
