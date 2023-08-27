@@ -1,16 +1,14 @@
-import React from 'react';
-import { StatusBar } from 'expo-status-bar';
-import HomeScreen from './src/screens/HomeScreen';
+import React from "react";
+import { StatusBar } from "expo-status-bar";
+import DestinationSearch from "./src/screens/DestinationSearch";
 
-
-const App = () => { 
+const App = () => {
   return (
-    < >
-      <StatusBar barStyle= "dark-content"/>
-      <HomeScreen/>
+    <>
+      <StatusBar barStyle="dark-content" />
+      <DestinationSearch/>
     </>
   );
- };
+};
 
- export default App;
-
+export default App;
