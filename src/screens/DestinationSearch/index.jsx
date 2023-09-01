@@ -31,7 +31,7 @@ const DestinationSearch = () => {
            }}
            fetchDetails
            query={{
-            key: 'AIzaSyD78grWCPuEZDBy3_WaP0VT5buwFBJY3Kg',
+            key: 'xxxxxxxxxxxxxxxxxxxxxxxxxxx',
             lenguage: 'es',
            }}
            />
@@ -47,7 +47,7 @@ const DestinationSearch = () => {
            }}
            fetchDetails
            query={{
-            key: 'AIzaSyD78grWCPuEZDBy3_WaP0VT5buwFBJY3Kg',
+            key: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
             lenguage: 'es',
            }}
            />
