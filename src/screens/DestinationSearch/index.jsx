@@ -18,7 +18,7 @@ const DestinationSearch = () => {
      return (
     <SafeAreaView style= {{flex:1}}>
       <View style={styles.container}>
-<<<<<<< HEAD
+
 
       <GooglePlacesAutocomplete
            placeholder='Where from?'
@@ -51,7 +51,7 @@ const DestinationSearch = () => {
             lenguage: 'es',
            }}
            />
-=======
+
         <TextInput
          value={fromText}
          onChangeText={setFromText}
@@ -62,7 +62,7 @@ const DestinationSearch = () => {
          onChangeText={setDestinationText}
          style={styles.textInput}
          placeholder="Where to?" />
->>>>>>> 58eebf8ff154ec625ad3c1e6317cfc28b6764463
+
       </View>
     </SafeAreaView>
   );
